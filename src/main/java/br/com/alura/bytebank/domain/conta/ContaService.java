@@ -47,7 +47,7 @@ public class ContaService {
             throw new RegraDeNegocioException("Saldo insuficiente!");
         }
 
-        if (conta.getEstaAtiva() == false) {
+        if (!conta.getEstaAtiva()) {
                 throw new RegraDeNegocioException("Conta não está ativa!");
         }
 
@@ -66,7 +66,7 @@ public class ContaService {
             throw new RegraDeNegocioException("Valor do deposito deve ser superior a zero!");
         }
 
-        if (conta.getEstaAtiva() == false) {
+        if (!conta.getEstaAtiva()) {
             throw new RegraDeNegocioException("Conta não está ativa!");
         }
 
@@ -93,7 +93,7 @@ public class ContaService {
         Connection coon = connection.recuperarConexao();
         new ContaDAO(coon).alterarLogico(numeroDaConta);
 
-        if (conta.getEstaAtiva() == false) {
+        if (!conta.getEstaAtiva()) {
             throw new RegraDeNegocioException("Conta não está ativa!");
         }
     }

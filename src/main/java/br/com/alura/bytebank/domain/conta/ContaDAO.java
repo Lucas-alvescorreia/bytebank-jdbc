@@ -86,16 +86,15 @@ public class ContaDAO {
         Conta conta = null;
         try {
             ps = conn.prepareStatement(sql);
-            ps.setInt(1, numero);
             resultSet = ps.executeQuery();
 
             while (resultSet.next()) {
-                Integer numeroRecuperado = resultSet.getInt(1);
-                BigDecimal saldo = resultSet.getBigDecimal(2);
-                String nome = resultSet.getString(3);
-                String cpf = resultSet.getString(4);
-                String email = resultSet.getString(5);
-                Boolean estaAtiva = resultSet.getBoolean(6);
+                Integer numeroRecuperado = resultSet.getInt("numero");
+                BigDecimal saldo = resultSet.getBigDecimal("saldo");
+                String nome = resultSet.getString("cliente_nome");
+                String cpf = resultSet.getString("cliente_cpf");
+                String email = resultSet.getString("cliente_email");
+                Boolean estaAtiva = resultSet.getBoolean("esta_ativa");
 
                 DadosCadastroCliente dadosCadastroCliente =
                         new DadosCadastroCliente(nome, cpf, email);
@@ -156,7 +155,7 @@ public class ContaDAO {
 
     public void alterarLogico(Integer numeroDaConta) {
         PreparedStatement ps;
-        String sql = "UPDATE conta SET esta_ativa = false WHERE numero = ?";
+        String sql = "UPDATE conta SET esta_ativa = 0 WHERE numero = ?";
 
         try {
             ps = conn.prepareStatement(sql);

@@ -1,20 +1,14 @@
 
-z
-java:S11923"XDefine a constant instead of duplicating this literal "Conta nÃ£o estÃ¡ ativa!" 3 times.(”õÆïüÿÿÿÿ8§ªû‹ğ1
-C
-java:S11252"'Remove the unnecessary boolean literal.(óÜğ 8àªû‹ğ1
-C
-java:S1125E"'Remove the unnecessary boolean literal.(óÜğ 8êªû‹ğ1
-C
-java:S1125`"'Remove the unnecessary boolean literal.(óÜğ 8ôªû‹ğ1
+ 
+java:S11923"XDefine a constant instead of duplicating this literal "Conta nÃ£o estÃ¡ ativa!" 3 times.(”õÆïüÿÿÿÿ8§ªû‹ğ1J$d4c3e659-37f3-4273-9050-d5af24b301c1
 ‘
-java:S1128"IRemove this unused import 'br.com.alura.bytebank.domain.cliente.Cliente'.(ŒĞÒöûÿÿÿÿ8Î Ø‹ğ1J$31a31612-c315-4d3a-a267-28b4c3d66e2d
+java:S1128"IRemove this unused import 'br.com.alura.bytebank.domain.cliente.Cliente'.(ŒĞÒöûÿÿÿÿ8Î Ø‹ğ1J$6a300dcf-2ea6-4804-8dc5-7ee42c2c9725
 
-java:S1128	"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8Ô Ø‹ğ1J$daf5fe5d-2a0c-4a58-9aa4-545dd4fd7d09
+java:S1128	"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8Ô Ø‹ğ1J$74becbb3-f02b-4cfb-b31d-57d52c203b28
 u
 java:S1128
-"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Ü Ø‹ğ1J$914953f8-d72e-4293-bb2c-443b46337cb8
+"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Ü Ø‹ğ1J$10d011f4-a6df-4575-b4db-15a1f08b30e4
 q
-java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8Ş Ø‹ğ1J$e0023a64-4039-412f-b5b7-7faf13597d6f
-L
-java:S1068"*Remove this unused "contas" private field.(¿è¢‹úÿÿÿÿ8‚«û‹ğ1
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8Ş Ø‹ğ1J$e38665f3-5896-432d-a69d-4a18c0fb0f96
+r
+java:S1068"*Remove this unused "contas" private field.(¿è¢‹úÿÿÿÿ8‚«û‹ğ1J$e2e4cd6f-77c2-4a88-99b4-aaf7588b5908
