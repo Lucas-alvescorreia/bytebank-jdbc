@@ -1,0 +1,20 @@
+
+z
+java:S11923"XDefine a constant instead of duplicating this literal "Conta nÃ£o estÃ¡ ativa!" 3 times.(”õÆïüÿÿÿÿ8§ªû‹ğ1
+C
+java:S11252"'Remove the unnecessary boolean literal.(óÜğ 8àªû‹ğ1
+C
+java:S1125E"'Remove the unnecessary boolean literal.(óÜğ 8êªû‹ğ1
+C
+java:S1125`"'Remove the unnecessary boolean literal.(óÜğ 8ôªû‹ğ1
+‘
+java:S1128"IRemove this unused import 'br.com.alura.bytebank.domain.cliente.Cliente'.(ŒĞÒöûÿÿÿÿ8Î Ø‹ğ1J$31a31612-c315-4d3a-a267-28b4c3d66e2d
+
+java:S1128	"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8Ô Ø‹ğ1J$daf5fe5d-2a0c-4a58-9aa4-545dd4fd7d09
+u
+java:S1128
+"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Ü Ø‹ğ1J$914953f8-d72e-4293-bb2c-443b46337cb8
+q
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8Ş Ø‹ğ1J$e0023a64-4039-412f-b5b7-7faf13597d6f
+L
+java:S1068"*Remove this unused "contas" private field.(¿è¢‹úÿÿÿÿ8‚«û‹ğ1
